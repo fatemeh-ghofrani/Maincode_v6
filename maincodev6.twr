@@ -1,0 +1,379 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 5
+-n 3 -fastpaths -xml maincodev6.twx maincodev6.ncd -o maincodev6.twr
+maincodev6.pcf -ucf initialize.ucf
+
+Design file:              maincodev6.ncd
+Physical constraint file: maincodev6.pcf
+Device,package,speed:     xc3s400,tq144,-5 (PRODUCTION 1.39 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+TXE         |    3.289(R)|   -0.983(R)|clk_BUFGP         |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock HALL11 to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+M1n1        |    7.498(F)|driver1/M1n_or0000|   0.000|
+M1p1        |    7.498(F)|driver1/M1n_or0000|   0.000|
+M2n1        |    8.772(F)|driver1/M1n_or0000|   0.000|
+M2p1        |    8.159(F)|driver1/M1n_or0000|   0.000|
+M3n1        |    7.833(F)|driver1/M1n_or0000|   0.000|
+M3p1        |    8.772(F)|driver1/M1n_or0000|   0.000|
+------------+------------+------------------+--------+
+
+Clock HALL12 to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+M1n2        |    8.456(F)|driver2/M1n_or0000|   0.000|
+M1p2        |    8.456(F)|driver2/M1n_or0000|   0.000|
+M2n2        |    8.431(F)|driver2/M1n_or0000|   0.000|
+M2p2        |    8.431(F)|driver2/M1n_or0000|   0.000|
+M3n2        |    9.045(F)|driver2/M1n_or0000|   0.000|
+M3p2        |    9.045(F)|driver2/M1n_or0000|   0.000|
+------------+------------+------------------+--------+
+
+Clock HALL13 to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+M1n3        |    7.699(F)|driver3/M1n_or0000|   0.000|
+M1p3        |    7.699(F)|driver3/M1n_or0000|   0.000|
+M2n3        |    6.966(F)|driver3/M1n_or0000|   0.000|
+M2p3        |    7.560(F)|driver3/M1n_or0000|   0.000|
+M3n3        |    7.248(F)|driver3/M1n_or0000|   0.000|
+M3p3        |    6.966(F)|driver3/M1n_or0000|   0.000|
+------------+------------+------------------+--------+
+
+Clock HALL14 to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+M1n4        |    7.609(F)|driver4/M1n_or0000|   0.000|
+M1p4        |    7.609(F)|driver4/M1n_or0000|   0.000|
+M2n4        |    7.008(F)|driver4/M1n_or0000|   0.000|
+M2p4        |    7.008(F)|driver4/M1n_or0000|   0.000|
+M3n4        |    7.609(F)|driver4/M1n_or0000|   0.000|
+M3p4        |    7.609(F)|driver4/M1n_or0000|   0.000|
+------------+------------+------------------+--------+
+
+Clock HALL21 to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+M1n1        |    7.765(F)|driver1/M1n_or0000|   0.000|
+M1p1        |    7.765(F)|driver1/M1n_or0000|   0.000|
+M2n1        |    9.039(F)|driver1/M1n_or0000|   0.000|
+M2p1        |    8.426(F)|driver1/M1n_or0000|   0.000|
+M3n1        |    8.100(F)|driver1/M1n_or0000|   0.000|
+M3p1        |    9.039(F)|driver1/M1n_or0000|   0.000|
+------------+------------+------------------+--------+
+
+Clock HALL22 to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+M1n2        |    8.068(F)|driver2/M1n_or0000|   0.000|
+M1p2        |    8.068(F)|driver2/M1n_or0000|   0.000|
+M2n2        |    8.043(F)|driver2/M1n_or0000|   0.000|
+M2p2        |    8.043(F)|driver2/M1n_or0000|   0.000|
+M3n2        |    8.657(F)|driver2/M1n_or0000|   0.000|
+M3p2        |    8.657(F)|driver2/M1n_or0000|   0.000|
+------------+------------+------------------+--------+
+
+Clock HALL23 to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+M1n3        |    7.786(F)|driver3/M1n_or0000|   0.000|
+M1p3        |    7.786(F)|driver3/M1n_or0000|   0.000|
+M2n3        |    7.053(F)|driver3/M1n_or0000|   0.000|
+M2p3        |    7.647(F)|driver3/M1n_or0000|   0.000|
+M3n3        |    7.335(F)|driver3/M1n_or0000|   0.000|
+M3p3        |    7.053(F)|driver3/M1n_or0000|   0.000|
+------------+------------+------------------+--------+
+
+Clock HALL24 to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+M1n4        |    7.895(F)|driver4/M1n_or0000|   0.000|
+M1p4        |    7.895(F)|driver4/M1n_or0000|   0.000|
+M2n4        |    7.294(F)|driver4/M1n_or0000|   0.000|
+M2p4        |    7.294(F)|driver4/M1n_or0000|   0.000|
+M3n4        |    7.895(F)|driver4/M1n_or0000|   0.000|
+M3p4        |    7.895(F)|driver4/M1n_or0000|   0.000|
+------------+------------+------------------+--------+
+
+Clock HALL31 to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+M1n1        |    7.555(F)|driver1/M1n_or0000|   0.000|
+M1p1        |    7.555(F)|driver1/M1n_or0000|   0.000|
+M2n1        |    8.829(F)|driver1/M1n_or0000|   0.000|
+M2p1        |    8.216(F)|driver1/M1n_or0000|   0.000|
+M3n1        |    7.890(F)|driver1/M1n_or0000|   0.000|
+M3p1        |    8.829(F)|driver1/M1n_or0000|   0.000|
+------------+------------+------------------+--------+
+
+Clock HALL32 to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+M1n2        |    8.429(F)|driver2/M1n_or0000|   0.000|
+M1p2        |    8.429(F)|driver2/M1n_or0000|   0.000|
+M2n2        |    8.404(F)|driver2/M1n_or0000|   0.000|
+M2p2        |    8.404(F)|driver2/M1n_or0000|   0.000|
+M3n2        |    9.018(F)|driver2/M1n_or0000|   0.000|
+M3p2        |    9.018(F)|driver2/M1n_or0000|   0.000|
+------------+------------+------------------+--------+
+
+Clock HALL33 to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+M1n3        |    7.584(F)|driver3/M1n_or0000|   0.000|
+M1p3        |    7.584(F)|driver3/M1n_or0000|   0.000|
+M2n3        |    6.851(F)|driver3/M1n_or0000|   0.000|
+M2p3        |    7.445(F)|driver3/M1n_or0000|   0.000|
+M3n3        |    7.133(F)|driver3/M1n_or0000|   0.000|
+M3p3        |    6.851(F)|driver3/M1n_or0000|   0.000|
+------------+------------+------------------+--------+
+
+Clock HALL34 to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+M1n4        |    7.756(F)|driver4/M1n_or0000|   0.000|
+M1p4        |    7.756(F)|driver4/M1n_or0000|   0.000|
+M2n4        |    7.155(F)|driver4/M1n_or0000|   0.000|
+M2p4        |    7.155(F)|driver4/M1n_or0000|   0.000|
+M3n4        |    7.756(F)|driver4/M1n_or0000|   0.000|
+M3p4        |    7.756(F)|driver4/M1n_or0000|   0.000|
+------------+------------+------------------+--------+
+
+Clock clk to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+DATA_USB<2> |    8.732(R)|clk_BUFGP         |   0.000|
+DATA_USB<3> |    7.968(R)|clk_BUFGP         |   0.000|
+DATA_USB<5> |    7.972(R)|clk_BUFGP         |   0.000|
+DATA_USB<7> |    8.242(R)|clk_BUFGP         |   0.000|
+USB_WR      |    8.018(R)|clk_BUFGP         |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock HALL11
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+HALL11         |         |         |    0.822|    0.822|
+HALL21         |         |         |   -0.127|   -0.127|
+HALL31         |         |         |    0.908|    0.908|
+clk            |         |         |    4.039|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock HALL12
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+HALL12         |         |         |    0.459|    0.459|
+HALL22         |         |         |    0.371|    0.371|
+HALL32         |         |         |    0.511|    0.511|
+clk            |         |         |    3.828|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock HALL13
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+HALL13         |         |         |    1.359|    1.359|
+HALL23         |         |         |    1.010|    1.010|
+HALL33         |         |         |    0.696|    0.696|
+clk            |         |         |    3.856|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock HALL14
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+HALL14         |         |         |    0.664|    0.664|
+HALL24         |         |         |    0.784|    0.784|
+HALL34         |         |         |    0.550|    0.550|
+clk            |         |         |    3.612|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock HALL21
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+HALL11         |         |         |    0.609|    0.609|
+HALL21         |         |         |   -0.340|   -0.340|
+HALL31         |         |         |    0.695|    0.695|
+clk            |         |         |    4.039|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock HALL22
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+HALL12         |         |         |    0.770|    0.770|
+HALL22         |         |         |    0.682|    0.682|
+HALL32         |         |         |    0.822|    0.822|
+clk            |         |         |    3.828|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock HALL23
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+HALL13         |         |         |    1.289|    1.289|
+HALL23         |         |         |    0.940|    0.940|
+HALL33         |         |         |    0.626|    0.626|
+clk            |         |         |    3.856|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock HALL24
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+HALL14         |         |         |    0.435|    0.435|
+HALL24         |         |         |    0.555|    0.555|
+HALL34         |         |         |    0.321|    0.321|
+clk            |         |         |    3.612|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock HALL31
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+HALL11         |         |         |    0.777|    0.777|
+HALL21         |         |         |   -0.172|   -0.172|
+HALL31         |         |         |    0.863|    0.863|
+clk            |         |         |    4.039|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock HALL32
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+HALL12         |         |         |    0.481|    0.481|
+HALL22         |         |         |    0.393|    0.393|
+HALL32         |         |         |    0.533|    0.533|
+clk            |         |         |    3.828|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock HALL33
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+HALL13         |         |         |    1.450|    1.450|
+HALL23         |         |         |    1.101|    1.101|
+HALL33         |         |         |    0.787|    0.787|
+clk            |         |         |    3.856|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock HALL34
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+HALL14         |         |         |    0.546|    0.546|
+HALL24         |         |         |    0.666|    0.666|
+HALL34         |         |         |    0.432|    0.432|
+clk            |         |         |    3.612|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    7.191|    6.297|         |    3.952|
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+HALL11         |LED<0>         |    9.668|
+HALL21         |LED<1>         |   10.324|
+HALL31         |LED<2>         |   10.147|
+---------------+---------------+---------+
+
+
+Analysis completed Sun Sep 07 12:00:16 2014 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 143 MB
+
+
+

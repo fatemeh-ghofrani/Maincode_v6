@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Fatemeh\Desktop\maincodev6\maincodev6\maincodev6.ncd
+OUTFILE=C:\Users\Fatemeh\Desktop\maincodev6\maincodev6\maincodev6.bit
+FAMILY=Spartan3
+PART=xc3s400-5tq144
+WORKINGDIR=C:\Users\Fatemeh\Desktop\maincodev6\maincodev6
+LICENSE=WebPack
+USER_INFO=__0_0_0

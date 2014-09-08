@@ -1,0 +1,37 @@
+xst -intstyle ise -ifn "C:/Users/Fatemeh/Desktop/maincodev6/maincodev6/drivermotor.xst" -ofn "C:/Users/Fatemeh/Desktop/maincodev6/maincodev6/drivermotor.syr" 
+xst -intstyle ise -ifn "C:/Users/Fatemeh/Desktop/maincodev6/maincodev6/drivermotor.xst" -ofn "C:/Users/Fatemeh/Desktop/maincodev6/maincodev6/drivermotor.syr" 
+xst -intstyle ise -ifn "C:/Users/Fatemeh/Desktop/maincodev6/maincodev6/drivermotor.xst" -ofn "C:/Users/Fatemeh/Desktop/maincodev6/maincodev6/drivermotor.syr" 
+xst -intstyle ise -ifn "C:/Users/Fatemeh/Desktop/maincodev6/maincodev6/drivermotor.xst" -ofn "C:/Users/Fatemeh/Desktop/maincodev6/maincodev6/drivermotor.syr" 
+xst -intstyle ise -ifn "C:/Users/Fatemeh/Desktop/maincodev6/maincodev6/drivermotor.xst" -ofn "C:/Users/Fatemeh/Desktop/maincodev6/maincodev6/drivermotor.syr" 
+xst -intstyle ise -ifn "C:/Users/Fatemeh/Desktop/maincodev6/maincodev6/drivermotor.xst" -ofn "C:/Users/Fatemeh/Desktop/maincodev6/maincodev6/drivermotor.syr" 
+xst -intstyle ise -ifn "C:/Users/Fatemeh/Desktop/maincodev6/maincodev6/drivermotor.xst" -ofn "C:/Users/Fatemeh/Desktop/maincodev6/maincodev6/drivermotor.syr" 
+xst -intstyle ise -ifn "C:/Users/Fatemeh/Desktop/maincodev6/maincodev6/drivermotor.xst" -ofn "C:/Users/Fatemeh/Desktop/maincodev6/maincodev6/drivermotor.syr" 
+xst -intstyle ise -ifn "C:/Users/Fatemeh/Desktop/maincodev6/maincodev6/drivermotor.xst" -ofn "C:/Users/Fatemeh/Desktop/maincodev6/maincodev6/drivermotor.syr" 
+xst -intstyle ise -ifn "C:/Users/Fatemeh/Desktop/maincodev6/maincodev6/drivermotor.xst" -ofn "C:/Users/Fatemeh/Desktop/maincodev6/maincodev6/drivermotor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-tq144-5 drivermotor.ngc drivermotor.ngd  
+map -intstyle ise -p xc3s400-tq144-5 -cm area -ir off -pr off -c 100 -o drivermotor_map.ncd drivermotor.ngd drivermotor.pcf 
+par -w -intstyle ise -ol high -t 1 drivermotor_map.ncd drivermotor.ncd drivermotor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml drivermotor.twx drivermotor.ncd -o drivermotor.twr drivermotor.pcf 
+xst -intstyle ise -ifn "C:/Users/Fatemeh/Desktop/maincodev6/maincodev6/drivermotor.xst" -ofn "C:/Users/Fatemeh/Desktop/maincodev6/maincodev6/drivermotor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-tq144-5 drivermotor.ngc drivermotor.ngd  
+map -intstyle ise -p xc3s400-tq144-5 -cm area -ir off -pr off -c 100 -o drivermotor_map.ncd drivermotor.ngd drivermotor.pcf 
+par -w -intstyle ise -ol high -t 1 drivermotor_map.ncd drivermotor.ncd drivermotor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml drivermotor.twx drivermotor.ncd -o drivermotor.twr drivermotor.pcf 
+xst -intstyle ise -ifn "C:/Users/Fatemeh/Desktop/maincodev6/maincodev6/drivermotor.xst" -ofn "C:/Users/Fatemeh/Desktop/maincodev6/maincodev6/drivermotor.syr" 
+xst -intstyle ise -ifn "C:/Users/Fatemeh/Desktop/maincodev6/maincodev6/drivermotor.xst" -ofn "C:/Users/Fatemeh/Desktop/maincodev6/maincodev6/drivermotor.syr" 
+xst -intstyle ise -ifn "C:/Users/Fatemeh/Desktop/maincodev6/maincodev6/drivermotor.xst" -ofn "C:/Users/Fatemeh/Desktop/maincodev6/maincodev6/drivermotor.syr" 
+xst -intstyle ise -ifn "C:/Users/Fatemeh/Desktop/maincodev6/maincodev6/drivermotor.xst" -ofn "C:/Users/Fatemeh/Desktop/maincodev6/maincodev6/drivermotor.syr" 
+xst -intstyle ise -ifn "C:/Users/Fatemeh/Desktop/maincodev6/maincodev6/drivermotor.xst" -ofn "C:/Users/Fatemeh/Desktop/maincodev6/maincodev6/drivermotor.syr" 
+xst -intstyle ise -ifn "C:/Users/Fatemeh/Desktop/maincodev6/maincodev6/drivermotor.xst" -ofn "C:/Users/Fatemeh/Desktop/maincodev6/maincodev6/drivermotor.syr" 
+xst -intstyle ise -ifn "C:/Users/Fatemeh/Desktop/maincodev6/maincodev6/drivermotor.xst" -ofn "C:/Users/Fatemeh/Desktop/maincodev6/maincodev6/drivermotor.syr" 
+xst -intstyle ise -ifn "C:/Users/Fatemeh/Desktop/maincodev6/maincodev6/drivermotor.xst" -ofn "C:/Users/Fatemeh/Desktop/maincodev6/maincodev6/drivermotor.syr" 
+xst -intstyle ise -ifn "C:/Users/Fatemeh/Desktop/maincodev6/maincodev6/drivermotor.xst" -ofn "C:/Users/Fatemeh/Desktop/maincodev6/maincodev6/drivermotor.syr" 
+xst -intstyle ise -ifn "C:/Users/Fatemeh/Desktop/maincodev6/maincodev6/drivermotor.xst" -ofn "C:/Users/Fatemeh/Desktop/maincodev6/maincodev6/drivermotor.syr" 
+xst -intstyle ise -ifn "C:/Users/Fatemeh/Desktop/maincodev6/maincodev6/drivermotor.xst" -ofn "C:/Users/Fatemeh/Desktop/maincodev6/maincodev6/drivermotor.syr" 
+xst -intstyle ise -ifn "C:/Users/Fatemeh/Desktop/maincodev6/maincodev6/drivermotor.xst" -ofn "C:/Users/Fatemeh/Desktop/maincodev6/maincodev6/drivermotor.syr" 
+xst -intstyle ise -ifn "C:/Users/Fatemeh/Desktop/maincodev6/maincodev6/drivermotor.xst" -ofn "C:/Users/Fatemeh/Desktop/maincodev6/maincodev6/drivermotor.syr" 
+xst -intstyle ise -ifn "C:/Users/Fatemeh/Desktop/maincodev6/maincodev6/drivermotor.xst" -ofn "C:/Users/Fatemeh/Desktop/maincodev6/maincodev6/drivermotor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-tq144-5 drivermotor.ngc drivermotor.ngd  
+map -intstyle ise -p xc3s400-tq144-5 -cm area -ir off -pr off -c 100 -o drivermotor_map.ncd drivermotor.ngd drivermotor.pcf 
+par -w -intstyle ise -ol high -t 1 drivermotor_map.ncd drivermotor.ncd drivermotor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml drivermotor.twx drivermotor.ncd -o drivermotor.twr drivermotor.pcf 

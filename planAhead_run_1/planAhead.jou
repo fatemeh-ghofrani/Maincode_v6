@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.2 (64-bit)
+# Build 194362 by xbuild on Fri Jul 20 18:52:11 MDT 2012
+# Start of session at: Tue Sep 02 16:26:37 2014
+# Process ID: 6204
+# Log file: D:/maincodev6/planAhead_run_1/planAhead.log
+# Journal file: D:/maincodev6/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/maincodev6/pa.fromNetlist.tcl

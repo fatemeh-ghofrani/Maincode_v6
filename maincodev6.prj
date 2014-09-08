@@ -1,0 +1,4 @@
+vhdl work "pwm.vhd"
+vhdl work "Write_to_USB.vhd"
+vhdl work "driver.vhd"
+vhdl work "test.vhd"
